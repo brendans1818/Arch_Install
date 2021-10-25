@@ -18,7 +18,7 @@
   * I then kept the default type for sda2 → linux
   * After all of this I created a file system. 
    *  mkfs.ext4 /dev/sda2 (makes a file system)
-   *  To wipe a fs → wipefs -a /dev/sda2
+   *  To wipe a fs → wipefs -a /dev/sda2 (I accidentally put the fs on /dev/sda1 so I needed to remove it to put it on /dev/sda2) 
  * After that, i mounted the file system 
   * mount /dev/sda1 /mnt (mounts to a file system)
 * After all the partitioning and mounting I looked at mirrors but didnt add them/change anything.
