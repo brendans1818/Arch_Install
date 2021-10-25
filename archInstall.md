@@ -17,8 +17,8 @@
   * Next I created a second partition. I did this by clicking down on the arrow key and then choosing new and following the same steps (label type dos) then gave it the rest of the space. Then I clicked primary and i have both partitions set up.
   * I then kept the default type for sda2 → linux
   * After all of this I created a file system. 
-    * mkfs.ext4 /dev/sda2 (makes a file system)
-    * To wipe a fs → wipefs -a /dev/sda2
+   *  mkfs.ext4 /dev/sda2 (makes a file system)
+   *  To wipe a fs → wipefs -a /dev/sda2
  * After that, i mounted the file system 
   * mount /dev/sda1 /mnt (mounts to a file system)
 * After all the partitioning and mounting I looked at mirrors but didnt add them/change anything.
